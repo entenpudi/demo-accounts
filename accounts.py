@@ -193,3 +193,4 @@ while status:
     elif first_menu_choice == 3:
         print("Bye!")
         status = False
+        account_current.save_to_csv()
